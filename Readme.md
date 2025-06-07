@@ -1,5 +1,4 @@
 # This is readme file
 
-
-Her is the working and description of the project
+need to add the description and working of the repo
 
