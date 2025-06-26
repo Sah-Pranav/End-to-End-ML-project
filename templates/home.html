@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">House Price Prediction</h2>
+
+    <form action="/predictdata" method="POST">
+
+        <!-- Text Inputs -->
+        <div class="mb-3">
+            <label for="date" class="form-label">Date</label>
+            <input type="text" class="form-control" id="date" name="date" placeholder="YYYY" required>
+        </div>
+
+        <!-- Numeric Inputs -->
+        {% for field in ['bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'waterfront', 'view', 'condition', 'grade', 'sqft_above', 'sqft_basement', 'yr_built', 'yr_renovated', 'lat', 'long', 'sqft_living15', 'sqft_lot15'] %}
+        <div class="mb-3">
+            <label for="{{ field }}" class="form-label">{{ field.replace('_', ' ').title() }}</label>
+            <input type="text" class="form-control" id="{{ field }}" name="{{ field }}" required>
+        </div>
+        {% endfor %}
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary w-100">Predict Price</button>
+
+    </form>
+
+    <!-- Show prediction result if exists -->
+    {% if results is not none %}
+    <div class="alert alert-success mt-4 text-center">
+        <h4>Predicted House Price: ${{ results }}</h4>
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
