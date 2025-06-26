@@ -29,7 +29,7 @@ The dataset includes 21 features related to physical, locational, and structural
 
 ## 📸 Screenshot of UI
 
-![UI Screenshot](https://github.com/Sah-Pranav/End-to-End-ML-project/blob/main/Screenshots/Screenshot01.png)
+![UI Screenshot](https://github.com/Sah-Pranav/End-to-End-ML-project/tree/main/screenshots)
 
 ---
 
