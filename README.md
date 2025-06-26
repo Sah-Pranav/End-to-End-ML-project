@@ -38,8 +38,7 @@ The goal is to predict the `price` of a given house using various physical, loca
 
 - `price` : Sale price of the house  
 
-**Dataset Source:**  
-[👉 Kaggle - King County House Sales](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
+**Dataset Source:**   [👉 Kaggle - King County House Sales](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
 
 ---
 
