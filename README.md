@@ -38,10 +38,24 @@ The goal is to predict the `price` of a given house using various physical, loca
 
 - `price` : Sale price of the house  
 
-**Dataset Source:**   [👉 Kaggle - King County House Sales](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
+**Dataset Source:**   [👉 Kaggle - King County House Sales] (https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
 
 ---
 
+## Exploratory Data Analysis Notebook
+
+Link : [EDA NOTEBOOK] (https://github.com/Sah-Pranav/End-to-End-ML-project/blob/main/notebook/EDA.ipynb)
+
+## Model Training Approach Notebook
+
+Link : [Model Training Notebook] (https://github.com/Sah-Pranav/End-to-End-ML-project/blob/main/notebook/MODEL_TRAINING.ipynb)
+
+---
+# Screenshot of UI
+
+![] ()
+
+---
 ## 📌 Project Workflow
 
 1. **Data Ingestion**
@@ -67,18 +81,7 @@ The goal is to predict the `price` of a given house using various physical, loca
    - Build a user interface using Flask for online predictions.
    - Integrate prediction pipeline.
 
-6. **Deployment (Optional)**
-   - Deploy using AWS Elastic Beanstalk (or Streamlit/Render/Heroku).
-
 ---
 
-## Exploratory Data Analysis Notebook
 
-Link : [EDA Notebook](./notebook/1_EDA_Gemstone_price.ipynb)
-
-## Model Training Approach Notebook
-
-Link : [Model Training Notebook](./notebook/2_Model_Training_Gemstone.ipynb)
-
----
 
