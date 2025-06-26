@@ -4,39 +4,11 @@ A regression project to predict the sale price of houses using the **King County
 
 ---
 
-## 📖 Introduction About the Data
+## 📖 About the Data
 
-The goal is to predict the `price` of a given house using various physical, locational, and structural parameters.
-
-**The dataset contains 21 independent variables (including `id`):**
-
-| Variable         | Description                                                   |
-|:----------------|:--------------------------------------------------------------|
-| `id`             | Unique identifier for each house sale                         |
-| `date`           | Date of the house sale                                         |
-| `price`          | Sale price of the house (target variable)                      |
-| `bedrooms`       | Number of bedrooms                                             |
-| `bathrooms`      | Number of bathrooms (where .5 accounts for a half bath)        |
-| `sqft_living`    | Interior living space in square feet                          |
-| `sqft_lot`       | Total lot size in square feet                                  |
-| `floors`         | Number of floors                                               |
-| `waterfront`     | 1 if waterfront view; 0 otherwise                              |
-| `view`           | Index from 0 to 4 indicating view quality                      |
-| `condition`      | Condition of the house (numerical scale)                       |
-| `grade`          | Overall grade based on construction and design                 |
-| `sqft_above`     | Square footage excluding basement                              |
-| `sqft_basement`  | Square footage of the basement                                 |
-| `yr_built`       | Year the house was built                                       |
-| `yr_renovated`   | Year the house was renovated (0 if never)                      |
-| `zipcode`        | Location zip code                                              |
-| `lat`            | Latitude coordinate                                            |
-| `long`           | Longitude coordinate                                           |
-| `sqft_living15`  | Average living area of 15 nearest neighbors                    |
-| `sqft_lot15`     | Average lot size of 15 nearest neighbors                       |
-
-**Target variable:**
-
-- `price` : Sale price of the house  
+The dataset includes 21 features related to physical, locational, and structural house attributes.  
+**Target variable:** `price` (house sale price)
+ 
 
 **Dataset Source:**  
 👉 [Kaggle - King County House Sales](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
