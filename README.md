@@ -68,7 +68,7 @@ You can find all project-related screenshots in the [`/screenshots`](https://git
 ---
 
 ## 🌐 Microsoft AZURE Deployment Link
-🏠 [House Price Prediction App](https://housepriceprediction-f8cce5ahgwh5ghaq.germanywestcentral-01.azurewebsites.net/)
+🏠 https://housepriceprediction-f8cce5ahgwh5ghaq.germanywestcentral-01.azurewebsites.net/
 
 > **Note:** Deployment link may not be active if the Azure service has been deprovisioned. You can follow the project locally.
 
